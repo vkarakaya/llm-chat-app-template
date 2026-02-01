@@ -15,7 +15,7 @@ let chatHistory = [
 	{
 		role: "assistant",
 		content:
-			"Hi I would like to buy",
+			"Hi I would like to buy some watches pls.",
 	},
 ];
 let isProcessing = false;
