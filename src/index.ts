@@ -11,11 +11,11 @@ import { Env, ChatMessage } from "./types";
 
 // Model ID for Workers AI model
 // https://developers.cloudflare.com/workers-ai/models/
-const MODEL_ID = "@cf/meta/llama-3.1-8b-instruct-fp8";
+const MODEL_ID = "@cf/ibm-granite/granite-4.0-h-micro";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-	"You are a helpful, friendly assistant. Provide concise and accurate responses.";
+	"You are customer of antique shop, the shop owner will suggest some price for items and you will decide whether to pay or refuse to get deal. Your goal is to purchase item but not overpay. Keep it short only 1 line! Both you and the owner is sneaky. So you can be little jerkt to him like "no way, you are ripping me out" like slangs.";
 
 export default {
 	/**
